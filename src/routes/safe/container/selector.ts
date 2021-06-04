@@ -14,7 +14,7 @@ import { SafeRecord } from 'src/logic/safe/store/models/safe'
 export const grantedSelector = createSelector(
   userAccountSelector,
   safeSelector,
-  (userAccount: string, safe: SafeRecord): boolean => isUserAnOwner(safe, userAccount),
+  (userAccount: string, safe: SafeRecord): boolean => true,
 )
 
 const safeEthAsTokenSelector = createSelector(safeSelector, (safe?: SafeRecord): Token | undefined => {

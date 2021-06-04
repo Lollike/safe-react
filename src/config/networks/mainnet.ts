@@ -3,9 +3,9 @@ import { EnvironmentSettings, ETHEREUM_NETWORK, NetworkConfig } from 'src/config
 import { ETHGASSTATION_API_KEY } from 'src/utils/constants'
 
 const baseConfig: EnvironmentSettings = {
-  clientGatewayUrl: 'https://safe-client.mainnet.staging.gnosisdev.com/v1',
-  txServiceUrl: 'https://safe-transaction.mainnet.staging.gnosisdev.com/api/v1',
-  safeAppsUrl: 'https://safe-apps.dev.gnosisdev.com',
+  clientGatewayUrl: 'https://safe-client.mainnet.gnosis.io/v1',
+  txServiceUrl: 'https://safe-transaction.mainnet.gnosis.io/api/v1',
+  safeAppsUrl: 'https://apps.gnosis-safe.io',
   gasPriceOracle: {
     url: 'https://ethgasstation.info/json/ethgasAPI.json',
     gasParameter: 'average',
